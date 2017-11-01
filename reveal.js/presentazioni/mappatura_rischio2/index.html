@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>reveal.js - Slide Transitions</title>
+		<link rel="stylesheet" href="../css/reveal.css">
+		<!--link rel="stylesheet" href="../css/theme/league.css" id="theme"-->
+		<link rel="stylesheet" href="../css/theme/league.css" id="theme">
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+		<style type="text/css" media="screen">
+			.slides section.has-dark-background,
+			.slides section.has-dark-background h3 {
+				color: #fff;
+			}
+			.slides section.has-light-background,
+			.slides section.has-light-background h3 {
+				color: #222;
+			}
+			.greenthumb{
+				color: #0F6;
+			}
+
+			.yellow{
+				color: #FF0;
+			}
+			.red{
+				color: #F22;
+			}
+			.left{
+				text-align: left;
+			}
+			.pedice{
+				vertical-align: super;
+			}
+
+			.tqsize{
+				font-size: 0.75em !important;
+			}
+			.halfsize{
+				font-size: 0.5em !important;
+			}
+			.largo{
+				letter-spacing:0.2em
+			}
+			.right{
+				text-align: right;
+			}
+			.logos {
+				border: 0px solid #fff !important;
+				border-radius: 0px;
+				padding: 0px;
+				background: rgba(255, 255, 255, 0.0) !important;
+				box-shadow: 0 0 0px rgba(0, 0, 0, 0.0) !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			
+				<section data-transition="zoom-in">
+					<h2>Autodifesa digitale #2</h2>
+					<h3><br/></h3>
+					<img class="logos" src="dj.png"/>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<img class="logos" src="p.png"/>
+				</section>
+				
+				<section data-transition="zoom-in">
+					<h2>Autodifesa digitale #2</h2>
+					<p>Privacy e autotutela online sono importanti.</p>
+					<p class="fragment fade-in">Oggi vogliamo: </p>
+					<ul>
+						<li class="tqsize fragment fade-in">Introdurre alcuni metodi e strumenti per tutelare la propria sicurezza online</li>
+						<li class="tqsize fragment fade-in">Capire le esigenze per poter organizzare incontri futuri</li>
+					</ul>
+				</section>
+		
+				<section data-transition="zoom-in">
+					<h2>...continua dalle slide precedenti</h2>
+				</section>
+				
+				<section data-transition="zoom-in">
+					<h1>Strumenti e alternative</h1>
+
+					<aside class="notes">
+						Elenco di alternative migliori e più sicure agli strumenti che utilizziamo
+						Alcuni di questi servizi vengono utilizzati da chiunque, altri sono più dedicati a casi particolari/paranoici
+					</aside>
+					
+				</section>
+				
+				<section data-transition="zoom-in">
+					<h2>Mail</h2>
+					<ul>
+						<li class="tqsize">Autistici/Invèntati [autistici.org]</li>
+						<li class="tqsize">Riseup [riseup.net]</li>
+					</ul>
+					<aside class="notes">
+						Vantaggi A/I: sono compagni, non chiedono dati personali per l'iscrizione, non regalano dati a multinazionali che ci profilano nè analizzano il contenuto delle mail, servizi di mailing list facilmente utilizzabili, informazione decentrata, comunicazione con i server sicura, domini molto belli
+						Riseup: base a Seattle, attivo in tutto il mondo
+					</aside>
+				</section>
+				
+				<section data-transition="zoom-in">
+					<h2>Alternative a Whatsapp - <span class="red">Telegram</span></h2>
+					<ul>
+						<li class="tqsize fragment fade-in">Servizio di messaggistica istantanea basato su cloud ed erogato senza fini di lucro dalla società Telegram LLC </li>
+						<li class="tqsize fragment fade-in">I client ufficiali di Telegram sono distribuiti come <u>software libero</u></li>
+						<li class="tqsize fragment fade-in">Il traffico è crittato</li>
+						<li class="tqsize fragment fade-in">Si possono cancellare messaggi inviati</li>
+						<li class="tqsize fragment fade-in">Offre <u>chat segrete</u></li>
+						<li class="tqsize fragment fade-in">Ha un client desktop che funziona bene</li>
+						<li class="tqsize fragment fade-in">La gestione dei gruppi è di gran lunga migliore</li>
+						<li class="tqsize fragment fade-in"><u class="red">STI<span class="greenthumb">CKER</span><span class="yellow">!!!!</span></u></li>
+					</ul>
+					<aside class="notes">
+						- Whatsapp è di facebook -> potrebbe essere utilizzato x profilare/inserire pubblicità. Inoltre milioni di account Whatsapp sono stati collegati ai relativi account Facebook senza chiedere nulla, cosa per cui Facebook è stata multata più volte dall'antitrust
+						- Whatsapp è totalmente chiuso
+						- E al momento non è ancora stato bucato il protocollo di sicurezza (c'è un contest con in premio 200.000 dollari per chi ci riuscisse)
+						- Autodistruzione messaggi (si può anche impostare l'autodistruzione del proprio account dopo un certo periodo di non utilizzo)
+						- Gruppi fino a 10.000 membri, non serve avere il numero di una persona per aggiungerla ad un gruppo, bot, si possono anche creare canali broadcast uno a molti, si possono utilizzare hashtag per indicizzare i messaggi
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Alternative a Whatsapp - <span class="yellow">Signal</span></h2>
+						<ul>
+						<li class="tqsize fragment fade-in">Fatto da gente paranoica, per gente paranoica</li>
+						<li class="tqsize fragment fade-in">Crittografia ottima</li>
+						<li class="tqsize fragment fade-in">Codice sorgente <u>completamente aperto</u></li>
+						<li class="tqsize fragment fade-in">Nei server non rimane traccia delle comunicazioni</li>
+						<li class="tqsize fragment fade-in">Il servizio è <u>federabile<span class="fragment fade-in">, ma....</span></u></li>
+					</ul>
+					<aside class="notes">
+						- Codice aperto = si sa cosa succede in ogni punto interessato dalla comunicazione
+						- Nei server i messaggi sono salvati solo finchè non sono stati recapitati a tutti i destinatari, ma sono comunque illeggibili
+						- ...ma la versione ufficiale di Signal ha preso una piega verso la centralizzazione del servizio, quindi se si volesse avere ancora un servizio federato e decentralizzato è necessario utilizzare una propria versione, che non sarà compatibile con quella ufficiale
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Altri servizi utili</h2>
+					<ul>
+						<li class="fragment fade-in tqsize">Pad (alternativa a Google Docs)</li>
+						<li class="fragment fade-in tqsize">Wiki</li>
+						<li class="fragment fade-in tqsize">XMPP (Jabber) come chat</li>
+						
+					</ul>
+					<aside class="notes">	
+						- alternativa a google drive (che può cancellarti i file quando gli pare). editor di testo collaborativo in tempo reale, che non traccia gli IP. viene automaticamente distrutto dopo 30 giorni di inattività (su riseup)
+						- utile per tenere documentazione di progetti, collaborare in gruppo
+						- standard aperto, architettura decentralizzata, chiunque può tenere il proprio server. Ogni utente ha un ID, con nome e dominio come una mail. Supporta multichat
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Anonimato online - <span class="red">VPN <br/>(Virtual Private Network)</span></h2>	
+					<p class="fragment fade-in ">Si tratta di connettersi ad una rete come se ci si trovasse fisicamente lì. </p>
+					<p class="fragment fade-in ">Hanno molti utilizzi possibili, ad esempio 
+					<span class="fragment fade-in ">lavorare da casa come se ci si trovasse in ufficio,</span>
+					<span class="fragment fade-in ">guardare streaming di canali di altre nazioni,</span>
+					<span class="fragment fade-in "><u>aggirare la censura</u> che alcuni stati (ad esempio la Cina) impongono sulla rete,<span>
+					<span class="fragment fade-in "><u>navigare in modo *quasi* anonimo.</u></span>
+					<aside class="notes">
+						Si utilizza un tunnel virtuale che è l'equivalente di un cavo di rete fisico, avendo accesso a tutte le risorse a cui ha accesso il fornitore della VPN.
+						L'accesso alle VPN avviene tramite login
+						Il traffico dal client al fornitore della VPN è crittato
+						Si naviga in modo sostanzialmente anonimo, a meno che l'autorità che ci vuole fregare non faccia una rogatoria internazionale, cercando fra i log dei server di un altro paese etc...
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Anonimato online - <span class="red">VPN <br/> (Virtual Private Network)</span></h2>	
+					<img src="vpn.png"/>
+					<aside class="notes">
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Anonimato online - <span class="red">TOR</span></h2>	
+					<img class="fragment fade-in " src="thor.png"/>
+					<aside class="notes">
+						Cazzate
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Anonimato online - <span class="red">TOR</span></h2>	
+					<img src="tor-working.png"/>
+					<aside class="notes">
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Anonimato online - <span class="red">TOR</span></h2>	
+					<p>I dati non transitano direttamente dal client al server, ma passano attraverso i server Tor che agiscono da router costruendo un circuito virtuale crittografato a strati. </p>
+					<p class="fragment fade-in ">Le comunicazioni tra i nodi Tor del circuito sono cifrate, tranne il tratto tra l'ultimo nodo Tor (detto exit node) e la destinazione finale, che è normalmente in chiaro. </p>
+					<p class="fragment fade-in ">Con Tor si possono anche offrire servizi web nascosti, anonimi e accessibili solo tramite la rete Tor (.onion)</p>
+					
+					<aside class="notes">
+						Analogia con la cipolla (the onion router)
+						Il dippe webbe
+						
+					</aside>
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Anonimato online - <span class="red">TOR</span></h2>	
+					<p>Attenzione: <u>nemmeno Tor si è sicuri al 100%</u> qualsiasi cosa si faccia!</p>
+					<aside class="notes">
+						l'utilizzo di Tor può destare sospetti.
+						Nessuna tecnologia può correggere l'errore (o la disattenzione) umano. Es usare torrent mentre si usa TOR, aprire file scaricati, script javascript. 
+					</aside>
+				</section>
+											
+				<section data-transition="convex"  data-background-image="venditti-4.png" style="text-align: left;">
+					<h2></h2>	
+					<p>Argomenti da approfondire?</p>
+					<p>Strumenti da provare?</p><br/>
+					<span class="fragment fade-in">
+						<h3>..:: infos ::..</h3>
+						<p class="yellow">http://polybius.fyi</p>
+						<h3>..:: Stay Tuned ::..</h3>
+						<p class="yellow">polybius@lists.riseup.net</p>
+					</span>
+					<aside class="notes">
+					</aside>
+				</section>
+				  
+			</div>
+		</div>
+	<script src="../lib/js/head.min.js"></script>
+	<script src="../js/reveal.js"></script>
+	<script>
+	Reveal.initialize({
+	controls: true,
+	progress: true,
+	history: true,
+	center: true,
+	//minScale: 1,
+	//maxScale: 10,
+	//naturalSwipe   : false,    // Invert swipe gestures
+	//pointerOpacity : 0.5,      // Set pointer opacity to 0.5
+	//pointerColor   : '#d80000', // Red pointer
+	// Optional libraries used to extend on reveal.js
+	dependencies: [
+	{ src: '../../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	{ src: '../../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); }},
+	// Syntax highlight for <code> elements
+	{ src: '../../plugin/notes/notes.js', async: true },
+	{ src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+	// Zoom in and out with Alt+click
+	{ src: '../../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+	//{ src: '../../../plugin/leap/leap_motion.js', async: true  }
+	]
+	});
+	</script>
+	</body>
+</html>
